@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class PemilihanHari21 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+        sc.close();
         String dayName, dayType;
 
         System.out.println(",");
