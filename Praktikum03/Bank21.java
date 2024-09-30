@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Bank21 {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         double tabunganAwal, tabunganAkhir, bunga, persentaseBunga;
         int lamaMenabung;
@@ -21,5 +20,7 @@ public class Bank21 {
 
         System.out.println("Bunga: " + bunga);
         System.out.println("Tabungan akhir: " + tabunganAkhir);
+
+        sc.close();
     }
 }

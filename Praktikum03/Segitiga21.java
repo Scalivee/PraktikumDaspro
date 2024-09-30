@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Segitiga21 {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         int alas, tinggi;
@@ -17,5 +16,7 @@ public class Segitiga21 {
 
         luas = alas * tinggi / 2;
         System.out.println("Luas segitiga: " + luas);
+
+        sc.close();
     }
 }

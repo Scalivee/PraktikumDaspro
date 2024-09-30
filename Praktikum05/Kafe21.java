@@ -2,6 +2,7 @@ package Praktikum05;
 import java.util.Scanner;
 
 public class Kafe21 {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -51,7 +52,7 @@ public class Kafe21 {
                 break;
             default:
                 System.out.println("Maaf size yang dipilih tidak tersedia");
-                break;
+                return;
         }
 
 
